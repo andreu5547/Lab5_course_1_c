@@ -2,10 +2,12 @@
 #include "StringVectors.h"
 #include "calc.h"
 
+#define INIT_LENGTH 10
+
 int main() {
     // num 1
-    CVector* s1 = init_cvector(10);
-    CVector* s2 = init_cvector(10);
+    CVector* s1 = init_cvector(INIT_LENGTH);
+    CVector* s2 = init_cvector(INIT_LENGTH);
     puts("Input string 1:");
     input_cvector(s1);
     puts("Input string 2:");
